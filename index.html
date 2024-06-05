@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <title>MyAndromeda</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:regular,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header data-anim="opacity" class="header">
+        <div class="header__container">
+          <nav class="header__menu menu-header">
+            <ul class="menu-header__list">
+              <li class="menu-header__li">
+                <a data-goto=".about" href="" class="menu-header__link"
+                  >About</a
+                >
+              </li>
+              <li class="menu-header__li">
+                <a data-goto=".traks" href="" class="menu-header__link"
+                  >Music</a
+                >
+              </li>
+              <li class="menu-header__li">
+                <a data-goto=".gallery" href="" class="menu-header__link"
+                  >Media</a
+                >
+              </li>
+              <li class="menu-header__li">
+                <a data-goto=".events" href="" class="menu-header__link"
+                  >Merch</a
+                >
+              </li>
+              <li class="menu-header__li">
+                <a data-goto=".footer" href="" class="menu-header__link"
+                  >Contacts</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <button type="button" class="menu-header__icon icon-menu">
+            <span></span>
+          </button>
+        </div>
+      </header>
+      <main class="main">
+        <section class="first">
+          <video
+            class="first__video"
+            poster="img/first/background.jpg"
+            muted
+            loop
+          >
+            <source src="video/My Andromeda - Shot in the void.mp4" />
+          </video>
+          <div class="first__container">
+            <div class="first__content">
+              <div data-anim="fade-down" class="first__text">Paper Sails</div>
+              <div
+                data-anim="fade-down"
+                data-delay=".5"
+                class="first__controls controls"
+              >
+                <div class="controls__play"></div>
+                <div class="controls__progress">
+                  <input value="0" min="0" max="100" type="range" />
+                </div>
+                <div class="controls__timer">00.00-00.00</div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="news">
+          <div class="news__container">
+            <div class="news__row">
+              <div data-anim="fade-down" class="news__column">
+                <div class="news__item item-news">
+                  <div class="item-news__image _ibg">
+                    <img src="img/news/01.png" alt="image" />
+                  </div>
+                  <!-- <div class="item-news__body">
+                    <a href="" class="item-news__text"></a>
+                  </div> 
+				Фиол тело над картинкой-->
+                </div>
+              </div>
+              <div data-anim="fade-down" data-delay=".1" class="news__column">
+                <div class="news__item item-news">
+                  <div class="item-news__image _ibg">
+                    <img src="img/news/02.png" alt="image" />
+                  </div>
+                
+                </div>
+              </div>
+              <div data-anim="fade-down" data-delay=".2" class="news__column">
+                <div class="news__item item-news">
+                  <div class="item-news__image _ibg">
+                    <img src="img/news/03.png" alt="image" />
+                  </div>
+               
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
